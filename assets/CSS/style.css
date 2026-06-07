@@ -398,11 +398,13 @@ a:hover {
 
 
 .logo{
+    width: contain;
     max-width: 300px;
 }
 @media (max-width: 768px) {
     .logo {
-        max-width: 220px;
+        width: contain;
+        max-width: 250px;
     }
 }
 
